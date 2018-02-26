@@ -81,6 +81,4 @@ set "REACT_APP_API_URL=http://localhost:3031" & set "PORT=3030" & npm run start-
 Insights:  
 Here is a small working demo video of the app - https://youtu.be/VWS_scOZbD4
 ![1](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/p.png)
-![2](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/q.png)
-![3](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/r.png)
 
