@@ -24,6 +24,8 @@ It could revolutionize agriculture supply chain operations through:
 * Tracing Origin of Products: Registration, payment, and transport of crops or other agricultural produce, buyers can also verify that the product they are receiving is exactly what they paid for.  
 * Fair Pricing: Suppliers in rural areas are able to determine what their harvest is currently worth and sell it to distributors at a price that reflects global market conditions.  
 
+Demo Video Of DAPP - https://youtu.be/VWS_scOZbD4
+
 ### Tech Stack
 ![TechStack](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/11.png)
 
@@ -77,8 +79,8 @@ set "REACT_APP_API_URL=http://localhost:3031" & set "PORT=3030" & npm run start-
 ```
 ### [DApp Working Demo](https://youtu.be/VWS_scOZbD4) - 
 Insights:  
+Here is a small working demo video of the app - https://youtu.be/VWS_scOZbD4
 ![1](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/p.png)
 ![2](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/q.png)
 ![3](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/r.png)
-![4](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/t.png)
 
