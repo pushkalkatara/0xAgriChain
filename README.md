@@ -1,5 +1,4 @@
 # 0xAgriChain (Decentralised Application For Agriculture Supply Chain Management)
----
 
 ## Problem  
 Supply chain is defined as the line of various points involved in producing and delivering goods, from the procurement stage to the end customer. While agriculture is the most significant sector in rural areas and provides a livelihood for 70 per cent of the world’s poor, it is also the industry that provides the biggest disconnect between supplier and retailer. Moreover, due to the lack of transparency, buyers and customers cannot be sure of the true value of the products or services. It is hard to investigate the accountability of illegal events. Because of these challenges, today the world faces problems of counterfeiting, forced labor, and poor working conditions. A more direct link with consumers would ensure fair payments for their produce and enabling retailers to verify that they are getting what they’ve paid for.
@@ -25,23 +24,24 @@ It could revolutionize agriculture supply chain operations through:
 * Tracing Origin of Products: Registration, payment, and transport of crops or other agricultural produce, buyers can also verify that the product they are receiving is exactly what they paid for.  
 * Fair Pricing: Suppliers in rural areas are able to determine what their harvest is currently worth and sell it to distributors at a price that reflects global market conditions.  
 
-## Tech Stack
+### Tech Stack
+![TechStack](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/11.png)
 
-## DApp Strato Architecure
+### DApp Strato Architecture
+![Architecture](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/22.png)
 * Bloc API: User/Account Management and Smart-contracts management
 * STRATO API: Blockchain API for blocks and transactions.
 * Cirrus: Index and search smart-contracts.
 * STRATO Management Dashboard (SMD): Web based UI for your Private Ethereum Blockchain.
 
-## DApp Flow Diagram  
+### DApp Flow Diagram  
+![Flow Diagram](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/33.png)
 
-## Interaction with Blockchain  
+### Blockchain Management Over Strato Node
+![Blockchain Management](https://github.com/pushkalkatara/0xAgriChain/blob/master/Presentation/44.png)
 
-## Blockchain Management
-
+## Procedure To Install:
 This application requires a [BlockApps STRATO](http://blockapps.net/blockapps-strato-blockchain-application-development/) node. Follow the instruction in the [STRATO getting started guide](https://github.com/blockapps/strato-getting-started) to install a local instance.
-
-## Procedure To Install:  
 ```
 npm i  # Dapp Dependencies
 
@@ -56,30 +56,21 @@ From root folder of the project
 ```
 npm run deploy
 ```
-
 Windows users should run
-
 ```
 set "SERVER=localhost" & npm run deploy-windows
 ```
-
 #### Launching the API
-
 From the project root (Linux, Mac and Windows):
-
 ```
 npm run start
 ```
-
 #### Launching the UI
-
 ```
 cd ui
 npm run start
 ```
-
 On Windows:
-
 ```
 cd ui
 set "REACT_APP_API_URL=http://localhost:3031" & set "PORT=3030" & npm run start-windows
